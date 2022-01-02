@@ -1,0 +1,34 @@
+{
+  "name": "api-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christhian12rv/API---Metheorology-for-Surf.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Christhian Rezende Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christhian12rv/API---Metheorology-for-Surf/issues"
+  },
+  "homepage": "https://github.com/christhian12rv/API---Metheorology-for-Surf#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^17.0.6",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
